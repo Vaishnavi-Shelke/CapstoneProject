@@ -19,6 +19,7 @@ public class AccountPageTest extends TestBase{
 	int InValidAmount = Integer.valueOf(prop.getProperty("InValidAmount")) ;
 	String Successfull= prop.getProperty("Successfull");
 	String inSufficient = prop.getProperty("inSufficient");
+	String message = prop.getProperty("message");
 	int InSufficient_Amount = Integer.valueOf(prop.getProperty("InSufficient_Amount")) ;
 	
 	
@@ -45,7 +46,7 @@ public class AccountPageTest extends TestBase{
 	@Test(priority=2)
 	public void Verify_Deposit_With_InValideAmmount()
 	{
-		accountPage.InValidDeposit(InValidAmount);
+		accountPage.InValidDeposit(InValidAmount,message);
 	}
 	
 	@Test(priority=3)

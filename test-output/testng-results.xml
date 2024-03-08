@@ -1,155 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-08T08:55:23Z" name="Suite" finished-at="2024-03-08T08:56:51Z" duration-ms="88148">
+  <suite started-at="2024-03-08T18:55:05Z" name="Default suite" finished-at="2024-03-08T18:56:02Z" duration-ms="56819">
     <groups>
     </groups>
-    <test started-at="2024-03-08T08:55:23Z" name="Test" finished-at="2024-03-08T08:56:51Z" duration-ms="88148">
-      <class name="com.sqa.qa.testcases.TransactionsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.TransactionsPageTest@3de8f619]" started-at="2024-03-08T14:25:23Z" name="setUp" finished-at="2024-03-08T14:25:27Z" duration-ms="4243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Deposit_With_ValideAmmount()[pri:1, instance:com.sqa.qa.testcases.TransactionsPageTest@3de8f619]" started-at="2024-03-08T14:25:27Z" name="Verify_Deposit_With_ValideAmmount" finished-at="2024-03-08T14:25:29Z" duration-ms="1971" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Deposit_With_ValideAmmount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.TransactionsPageTest@3de8f619]" started-at="2024-03-08T14:25:29Z" name="tearDown" finished-at="2024-03-08T14:25:30Z" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sqa.qa.testcases.TransactionsPageTest -->
-      <class name="com.sqa.qa.testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AddCustomerTest@eadd4fb]" started-at="2024-03-08T14:25:38Z" name="setUp" finished-at="2024-03-08T14:25:41Z" duration-ms="2858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="AddCustomer_NotExist()[pri:1, instance:com.sqa.qa.testcases.AddCustomerTest@eadd4fb]" started-at="2024-03-08T14:25:41Z" name="AddCustomer_NotExist" finished-at="2024-03-08T14:25:42Z" duration-ms="1287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddCustomer_NotExist -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AddCustomerTest@eadd4fb]" started-at="2024-03-08T14:25:42Z" name="tearDown" finished-at="2024-03-08T14:25:42Z" duration-ms="220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AddCustomerTest@eadd4fb]" started-at="2024-03-08T14:25:53Z" name="setUp" finished-at="2024-03-08T14:25:56Z" duration-ms="3004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="AddCustomer_Exist()[pri:2, instance:com.sqa.qa.testcases.AddCustomerTest@eadd4fb]" started-at="2024-03-08T14:25:56Z" name="AddCustomer_Exist" finished-at="2024-03-08T14:25:59Z" depends-on-methods="com.sqa.qa.testcases.AddCustomerTest.AddCustomer_NotExist" duration-ms="2847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddCustomer_Exist -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AddCustomerTest@eadd4fb]" started-at="2024-03-08T14:25:59Z" name="tearDown" finished-at="2024-03-08T14:25:59Z" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sqa.qa.testcases.AddCustomerTest -->
-      <class name="com.sqa.qa.testcases.OpenAccountPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.OpenAccountPageTest@740fb309]" started-at="2024-03-08T14:25:42Z" name="setUp" finished-at="2024-03-08T14:25:45Z" duration-ms="2625" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="OpenAccount()[pri:1, instance:com.sqa.qa.testcases.OpenAccountPageTest@740fb309]" started-at="2024-03-08T14:25:45Z" name="OpenAccount" finished-at="2024-03-08T14:25:47Z" duration-ms="2034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.OpenAccountPageTest@740fb309]" started-at="2024-03-08T14:25:47Z" name="tearDown" finished-at="2024-03-08T14:25:47Z" duration-ms="217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sqa.qa.testcases.OpenAccountPageTest -->
-      <class name="com.sqa.qa.testcases.CustomersPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.CustomersPageTest@4e5ed836]" started-at="2024-03-08T14:25:34Z" name="setUp" finished-at="2024-03-08T14:25:37Z" duration-ms="3033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="DeleteCustomerEntry()[pri:1, instance:com.sqa.qa.testcases.CustomersPageTest@4e5ed836]" started-at="2024-03-08T14:25:37Z" name="DeleteCustomerEntry" finished-at="2024-03-08T14:25:38Z" duration-ms="961" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteCustomerEntry -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.CustomersPageTest@4e5ed836]" started-at="2024-03-08T14:25:38Z" name="tearDown" finished-at="2024-03-08T14:25:38Z" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sqa.qa.testcases.CustomersPageTest -->
-      <class name="com.sqa.qa.testcases.CustomerLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.CustomerLoginTest@2ab4bc72]" started-at="2024-03-08T14:25:30Z" name="setUp" finished-at="2024-03-08T14:25:32Z" duration-ms="2309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="customerlogin()[pri:1, instance:com.sqa.qa.testcases.CustomerLoginTest@2ab4bc72]" started-at="2024-03-08T14:25:32Z" name="customerlogin" finished-at="2024-03-08T14:25:34Z" duration-ms="1546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerlogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.CustomerLoginTest@2ab4bc72]" started-at="2024-03-08T14:25:34Z" name="tearDown" finished-at="2024-03-08T14:25:34Z" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sqa.qa.testcases.CustomerLoginTest -->
+    <test started-at="2024-03-08T18:55:05Z" name="Default test" finished-at="2024-03-08T18:56:02Z" duration-ms="56819">
       <class name="com.sqa.qa.testcases.AccountPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:25:47Z" name="setUp" finished-at="2024-03-08T14:25:51Z" duration-ms="3569" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:05Z" name="setUp" finished-at="2024-03-09T00:25:09Z" duration-ms="4248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Deposit_With_ValideAmmount()[pri:1, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:25:51Z" name="Verify_Deposit_With_ValideAmmount" finished-at="2024-03-08T14:25:53Z" duration-ms="2244" status="PASS">
+        <test-method signature="Verify_Deposit_With_ValideAmmount()[pri:1, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:09Z" name="Verify_Deposit_With_ValideAmmount" finished-at="2024-03-09T00:25:12Z" duration-ms="2242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Deposit_With_ValideAmmount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:25:53Z" name="tearDown" finished-at="2024-03-08T14:25:53Z" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:12Z" name="tearDown" finished-at="2024-03-09T00:25:12Z" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:25:59Z" name="setUp" finished-at="2024-03-08T14:26:03Z" duration-ms="3356" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:12Z" name="setUp" finished-at="2024-03-09T00:25:15Z" duration-ms="3250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Deposit_With_InValideAmmount()[pri:2, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:03Z" name="Verify_Deposit_With_InValideAmmount" finished-at="2024-03-08T14:26:05Z" duration-ms="2121" status="PASS">
+        <test-method signature="Verify_Deposit_With_InValideAmmount()[pri:2, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:15Z" name="Verify_Deposit_With_InValideAmmount" finished-at="2024-03-09T00:25:16Z" duration-ms="1208" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.sqa.qa.pages.AccountPage.InValidDeposit(AccountPage.java:179)
+	at com.sqa.qa.testcases.AccountPageTest.Verify_Deposit_With_InValideAmmount(AccountPageTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Deposit_With_InValideAmmount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:05Z" name="tearDown" finished-at="2024-03-08T14:26:05Z" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:16Z" name="tearDown" finished-at="2024-03-09T00:25:17Z" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:05Z" name="setUp" finished-at="2024-03-08T14:26:09Z" duration-ms="3522" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:17Z" name="setUp" finished-at="2024-03-09T00:25:20Z" duration-ms="3309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Withdraw_With_ValideAmmount()[pri:3, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:09Z" name="Verify_Withdraw_With_ValideAmmount" finished-at="2024-03-08T14:26:21Z" duration-ms="11951" status="PASS">
+        <test-method signature="Verify_Withdraw_With_ValideAmmount()[pri:3, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:20Z" name="Verify_Withdraw_With_ValideAmmount" finished-at="2024-03-09T00:25:32Z" duration-ms="12306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Withdraw_With_ValideAmmount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:21Z" name="tearDown" finished-at="2024-03-08T14:26:21Z" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:32Z" name="tearDown" finished-at="2024-03-09T00:25:33Z" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:21Z" name="setUp" finished-at="2024-03-08T14:26:25Z" duration-ms="3719" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:33Z" name="setUp" finished-at="2024-03-09T00:25:36Z" duration-ms="3335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Withdraw_With_InValideAmmount()[pri:4, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:25Z" name="Verify_Withdraw_With_InValideAmmount" finished-at="2024-03-08T14:26:35Z" duration-ms="10718" status="PASS">
+        <test-method signature="Verify_Withdraw_With_InValideAmmount()[pri:4, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:36Z" name="Verify_Withdraw_With_InValideAmmount" finished-at="2024-03-09T00:25:46Z" duration-ms="10497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Withdraw_With_InValideAmmount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:35Z" name="tearDown" finished-at="2024-03-08T14:26:36Z" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:46Z" name="tearDown" finished-at="2024-03-09T00:25:47Z" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:36Z" name="setUp" finished-at="2024-03-08T14:26:39Z" duration-ms="3587" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:47Z" name="setUp" finished-at="2024-03-09T00:25:50Z" duration-ms="3202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Withdraw_With_InSufficient()[pri:5, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:39Z" name="Verify_Withdraw_With_InSufficient" finished-at="2024-03-08T14:26:51Z" duration-ms="11629" status="PASS">
+        <test-method signature="Verify_Withdraw_With_InSufficient()[pri:5, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:25:50Z" name="Verify_Withdraw_With_InSufficient" finished-at="2024-03-09T00:26:02Z" duration-ms="11793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Withdraw_With_InSufficient -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@7bd7d6d6]" started-at="2024-03-08T14:26:51Z" name="tearDown" finished-at="2024-03-08T14:26:51Z" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sqa.qa.testcases.AccountPageTest@4d1bf319]" started-at="2024-03-09T00:26:02Z" name="tearDown" finished-at="2024-03-09T00:26:02Z" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sqa.qa.testcases.AccountPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
