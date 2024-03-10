@@ -59,7 +59,7 @@ public class AddCustomerTest extends TestBase{
 	{
 		addCustomerPage.AddCustomer(fname,lname,postcode);
         addCustomerPage.getAlert();
-        Thread.sleep(1000);
+        
 		addCustomerPage.AddCustomer(fname,lname,postcode);
 		String result2 = addCustomerPage.getAlertMessageText();
         Assert.assertEquals(result2, message_AddCustomer_Exist);
