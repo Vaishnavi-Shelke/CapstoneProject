@@ -1,7 +1,5 @@
 package com.sqa.qa.testcases;
 
-
-	
 	import org.testng.Assert;
 	import org.testng.annotations.AfterMethod;
 	import org.testng.annotations.BeforeMethod;
@@ -23,8 +21,6 @@ package com.sqa.qa.testcases;
 		
 		String AccountexistUser = prop.getProperty("AccontExistUser");
 		
-		
-		
 		public TransactionsPageTest()
 		{
 			super();
@@ -35,12 +31,8 @@ package com.sqa.qa.testcases;
 			initialization();
 			loginPage = new LoginPage();
 			customerTransactionPage = loginPage.CustomerLogin1(AccountexistUser);
-			
-			
 		}
 		
-
-
 		@Test(priority=1)
 		public void Verify_Deposit_With_ValideAmmount()
 		{
@@ -48,17 +40,11 @@ package com.sqa.qa.testcases;
 			
 		}
 		
-		
-		
 		@AfterMethod
 		public void tearDown(){
 			driver.quit();
 		}
 		
-		
-		
-		
-
-	}
+}
 
 

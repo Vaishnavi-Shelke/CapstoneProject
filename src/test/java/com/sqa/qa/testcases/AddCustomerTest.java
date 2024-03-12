@@ -34,10 +34,7 @@ public class AddCustomerTest extends TestBase{
 		initialization();
 		loginPage = new LoginPage();
 		addCustomerPage = loginPage.ManagerLogin();
-		
-		
-		
-	}
+		}
 
 	
 	@Test(priority=1)
@@ -51,7 +48,6 @@ public class AddCustomerTest extends TestBase{
         addCustomerPage.assertContains(actualText, expectedPartialText);
         addCustomerPage.getAlert();
 		
-		
 	}
 	
 	@Test(priority=2, dependsOnMethods = "AddCustomer_NotExist")
@@ -63,8 +59,6 @@ public class AddCustomerTest extends TestBase{
 		addCustomerPage.AddCustomer(fname,lname,postcode);
 		String result2 = addCustomerPage.getAlertMessageText();
         Assert.assertEquals(result2, message_AddCustomer_Exist);
-		
-		
 	}
 	
 	@AfterMethod
@@ -72,8 +66,4 @@ public class AddCustomerTest extends TestBase{
 		driver.quit();
 	}
 	
-	
-	
-	
-
 }

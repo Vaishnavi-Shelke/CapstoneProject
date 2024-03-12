@@ -27,8 +27,7 @@ public class CustomerLoginTest extends TestBase{
 		initialization();
 		loginPage = new LoginPage();
 		accountPage = new AccountPage();
-		
-	}
+		}
 	
 	
 	@Test(priority=1)
@@ -38,28 +37,12 @@ public class CustomerLoginTest extends TestBase{
 		String name=accountPage.verifyCustomerName();
 		Assert.assertEquals(AccountexistUser,name);
 		
-		
 	}
 	
-//	@Test(priority=2)
-//	public void customerlogin_Not_Exist()
-//	{
-//		loginPage.CustomerLogin(AccountNot_existUser);
-//		
-//		
-//	}
-	
-	
-	
-	
-	
+
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
 	}
 	
-	
-	
-	
-
 }

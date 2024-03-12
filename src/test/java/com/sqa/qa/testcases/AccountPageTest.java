@@ -49,11 +49,6 @@ public class AccountPageTest extends TestBase {
 	public void Verify_Withdraw_With_ValideAmmount() throws InterruptedException {
 		accountPage.ValidWithdraw(Successfull, ValidAmount);
 	}
-
-	/*
-	 * @Test(priority = 4) public void Verify_Withdraw_With_InValideAmmount() throws
-	 * InterruptedException { accountPage.InValidWithdraw(InValidAmount); }
-	 */
 	
 	 @Test(priority=4) 
 	 public void Verify_Withdraw_With_InSufficient() throws

@@ -173,9 +173,6 @@ public class AccountPage extends TestBase{
 			 int newBal = Integer.valueOf(GetBalance());
 			 int currentBal = Deposit_CurrentBalance(Amount,oldBal) ;
 			 Assert.assertEquals(currentBal, newBal);
-			 
-			// invalid case doesn't raise error msg
-			 //String msg = message();
 			 Assert.assertTrue(driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[4]//span")).isDisplayed());
 			 
 		}

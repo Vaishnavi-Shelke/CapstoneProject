@@ -1,9 +1,6 @@
 package com.sqa.qa.testcases;
 
 
-	
-	
-
 	import org.testng.Assert;
 	import org.testng.annotations.AfterMethod;
 	import org.testng.annotations.BeforeMethod;
@@ -23,8 +20,6 @@ package com.sqa.qa.testcases;
 		String Customers_username = prop.getProperty("Customers_username");
 		
 		
-		
-		
 		public CustomersPageTest()
 		{
 			super();
@@ -42,18 +37,12 @@ package com.sqa.qa.testcases;
 			customersPage.DeleteEntry(Customers_username);
 		}
 		
-		
-		
 		@AfterMethod
 		public void tearDown(){
 			driver.quit();
 		}
 		
-		
-		
-		
-
-	}
+}
 
 
 

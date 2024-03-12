@@ -1,7 +1,5 @@
 package com.sqa.qa.testcases;
 
-
-
 	import org.testng.Assert;
 	import org.testng.annotations.AfterMethod;
 	import org.testng.annotations.BeforeMethod;
@@ -19,9 +17,6 @@ package com.sqa.qa.testcases;
 		OpenAccountPage openAccountPage;
 		String OpenAccount_username = prop.getProperty("OpenAccount_username");
 		
-		
-		
-		
 		public OpenAccountPageTest()
 		{
 			super();
@@ -32,9 +27,6 @@ package com.sqa.qa.testcases;
 			initialization();
 			loginPage = new LoginPage();
 			openAccountPage = loginPage.ManagerLogin1();
-			
-			
-			
 		}
 		
 		@Test(priority=1)
@@ -43,18 +35,12 @@ package com.sqa.qa.testcases;
 			openAccountPage.AddCustomer(OpenAccount_username);
 		}
 		
-		
-		
 		@AfterMethod
 		public void tearDown(){
 			driver.quit();
 		}
 		
-		
-		
-		
-
-	}
+}
 
 
 

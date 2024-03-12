@@ -44,7 +44,7 @@ package com.sqa.qa.pages;
 			Customer_button.click();
 			SearchBox.sendKeys(username);
 			Delete.click();
-			System.out.println("DEleted customers details successfully");
+			System.out.println("Deleted customers details successfully");
 			
 	        
 	        
